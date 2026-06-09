@@ -1,4 +1,0 @@
-google-generativeai
-psycopg2
-gtts
-python-dotenv
