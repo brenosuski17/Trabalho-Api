@@ -3,12 +3,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = os.getenv("OPENAI_API_KEY")
 
 DB_CONFIG = {
     "host":     os.getenv("DB_HOST", "localhost"),
     "port":     os.getenv("DB_PORT", "5432"),
     "database": os.getenv("DB_NAME", "assistente"),
-    "user":     os.getenv("DB_USER", "postgres"),
+    "user":     os.getenv("DB_USER", "yasminoliveira"),
     "password": os.getenv("DB_PASSWORD", ""),
 }

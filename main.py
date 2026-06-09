@@ -107,7 +107,7 @@ class App:
         frame_rodape.pack(fill="x")
 
         criar_botao(frame_rodape, "📋 Ver histórico", self.mostrar_historico, COR_PAINEL, 16).pack(side="left", padx=2)
-        criar_botao(frame_rodape, "🗑 Limpar histórico", self.limpar_hist, COR_ERRO[:7]+"aa", 16).pack(side="left", padx=2)
+        criar_botao(frame_rodape, "🗑 Limpar histórico", self.limpar_hist, "#e05555", 16).pack(side="left", padx=2)
         criar_botao(frame_rodape, "🧹 Limpar tela", self.limpar_tela, COR_PAINEL, 14).pack(side="left", padx=2)
 
         # Barra de progresso (escondida)
